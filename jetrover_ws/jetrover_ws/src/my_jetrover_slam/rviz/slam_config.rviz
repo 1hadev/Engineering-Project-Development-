@@ -1,0 +1,22 @@
+Visualization Manager:
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Cell Size: 0.5
+      Reference Frame: odom
+    
+    - Class: rviz_default_plugins/LaserScan
+      Topic: /scan
+      Size: 0.03
+    
+    - Class: rviz_default_plugins/TF
+      Show Axes: true
+    
+    - Class: rviz_default_plugins/Map
+      Topic: /map
+    
+    - Class: rviz_default_plugins/RobotModel
+      Description Topic: /robot_description
+
+  Global Options:
+    Fixed Frame: odom
+    Background Color: 0; 0; 0
