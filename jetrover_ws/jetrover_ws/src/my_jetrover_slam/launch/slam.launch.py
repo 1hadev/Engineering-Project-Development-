@@ -3,6 +3,19 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
+
+     Node(
+    package='rplidar_ros',
+    executable='rplidar_node',
+    name='rplidar_node',
+    parameters=[{
+        'serial_port': '/dev/ttyUSB0',
+        'frame_id': 'laser',
+        'angle_compensate': True,
+        'scan_mode': 'Standard'
+    }]
+         
+),
         Node(
             package='slam_toolbox',
             executable='sync_slam_toolbox_node',
