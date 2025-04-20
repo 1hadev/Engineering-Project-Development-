@@ -1,1 +1,5 @@
-bulk upload 
+Because of the time constraints, understanding parametric files like .rviz, params.yaml etc was challenging, therefore despite an attempt to configure jetrover_ws from scratch it was unsuccesfull, as a result we as a 
+group decided to leverage pre existing configuration of hiwonder, and rather create overlay package over the ros2_ws source file from hiwonder(where neccesary) for secondary development to better utilize our time
+
+--This subdirectory ros2_ws in this github repo consists of bulk upload of the required folder for our mapping(SLAM), navigation(NAV2), Simulations and other overlay workspaces we did for secondary development to achieve
+text_based HRI, and speaker integration using espeak module
