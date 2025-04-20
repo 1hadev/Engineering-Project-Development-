@@ -1,2 +1,0 @@
-Due to time constraints and the complexity to get hold of detailed parameters of Hiwonder Jetrover(for example: nav2_params.yaml, rviz, urdf), our group utilized the original configured workspace,
-and proceeded with the secondary development(where applicable) in overlay workspace above the main ros2_ws provided by Hiwonder.
