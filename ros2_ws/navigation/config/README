@@ -1,0 +1,2 @@
+consits of nav2 yaml files: which defines cmd_vel, path planner algorithms, topic names like /scan /odom /cmd_vel,
+frame names like /laser, /map , controller.yaml files which consists of : /cmd_vel def, angular velocity, max/min velocity, /geometry_msgs/Twist, PID parameters and mechanics related to the jetrover
